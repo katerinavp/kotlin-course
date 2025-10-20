@@ -1,7 +1,5 @@
 package lessons.lesson13.homeworks
 
-import lessons.lesson12.homeworks.task27
-
 fun main() {
     val map1 = mapOf(
         "testLogin" to 2.5,
