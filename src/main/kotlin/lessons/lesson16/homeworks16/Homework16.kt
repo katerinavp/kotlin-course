@@ -1,9 +1,7 @@
 package lessons.lesson16.homeworks16
 
 import com.sun.source.doctree.InheritDocTree
-import jdk.jfr.DataAmount
 import kotlin.math.max
-import kotlin.math.round
 
 //перегрузка (изменение списка переменных в методе) и переопределение
 //1
@@ -46,7 +44,7 @@ class Circle(val radius: Double) : Figure() {
 
 class Square(val length: Double, val width: Double) : Figure() {
     override fun area(): Double {
-        return length * width
+        return length*width
     }
 }
 
@@ -90,6 +88,7 @@ class Basket() {
     fun addToCart(itemId: String, map: Map<String, Int>) {
 
     }
+class Triangle(length: Double, width: Double) : Figure() {
 
     fun addToCart(list: List<String>) {
 
@@ -132,5 +131,6 @@ fun main() {
     }
 }
 
+}
 
 
