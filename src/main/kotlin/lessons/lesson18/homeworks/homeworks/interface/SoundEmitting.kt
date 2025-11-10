@@ -1,4 +1,4 @@
-package lessons.lesson18.homeworks.homeworks
+package lessons.lesson18.homeworks.homeworks.`interface`
 
 import java.io.InputStream
 

@@ -1,5 +1,6 @@
-package lessons.lesson18.homeworks.homeworks
+package lessons.lesson18.homeworks.homeworks.abstractclass
 
+import lessons.lesson18.homeworks.homeworks.`interface`.SoundEmitting
 import java.io.InputStream
 
 abstract class SmartSpeaker: SoundEmitting {

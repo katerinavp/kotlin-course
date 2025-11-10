@@ -1,5 +1,7 @@
 package lessons.lesson18.homeworks.homeworks
 
+import lessons.lesson18.homeworks.homeworks.abstractclass.Fridge
+
 class FridgeNoFrost: Fridge() {
     override val maxTemperature: Int
         get() = 50

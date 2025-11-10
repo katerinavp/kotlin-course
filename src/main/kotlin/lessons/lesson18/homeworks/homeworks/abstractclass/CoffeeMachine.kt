@@ -1,4 +1,9 @@
-package lessons.lesson18.homeworks.homeworks
+package lessons.lesson18.homeworks.homeworks.abstractclass
+
+import lessons.lesson18.homeworks.homeworks.`interface`.AutomaticShutdown
+import lessons.lesson18.homeworks.homeworks.`interface`.Openable
+import lessons.lesson18.homeworks.homeworks.`interface`.Programmable
+import lessons.lesson18.homeworks.homeworks.`interface`.TemperatureRegulatable
 
 abstract class CoffeeMachine : AutomaticShutdown, Programmable, TemperatureRegulatable, Openable {
     override val sensorType: String

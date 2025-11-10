@@ -1,4 +1,7 @@
-package lessons.lesson18.homeworks.homeworks
+package lessons.lesson18.homeworks.homeworks.abstractclass
+
+import lessons.lesson18.homeworks.homeworks.`interface`.Mechanical
+import lessons.lesson18.homeworks.homeworks.`interface`.Timable
 
 abstract class Watch: Mechanical, Timable {
     override fun performMechanicalAction() {

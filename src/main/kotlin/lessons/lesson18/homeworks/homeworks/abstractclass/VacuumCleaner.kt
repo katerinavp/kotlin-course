@@ -1,4 +1,9 @@
-package lessons.lesson18.homeworks.homeworks
+package lessons.lesson18.homeworks.homeworks.abstractclass
+
+import lessons.lesson18.homeworks.homeworks.`interface`.Movable
+import lessons.lesson18.homeworks.homeworks.`interface`.Powerable
+import lessons.lesson18.homeworks.homeworks.`interface`.Programmable
+import lessons.lesson18.homeworks.homeworks.`interface`.Rechargeable
 
 abstract class VacuumCleaner : Powerable, Programmable, Rechargeable, Movable {
     override fun powerOn() {

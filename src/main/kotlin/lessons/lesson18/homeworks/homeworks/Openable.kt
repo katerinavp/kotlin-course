@@ -1,6 +1,0 @@
-package lessons.lesson18.homeworks.homeworks
-
-interface Openable {
-    fun open()
-    fun close()
-}
